@@ -2,6 +2,8 @@ import  React, {Component} from 'react';
 import Loading from './Loading';
 import Item from './Item';
 import Header from './Header';
+import Footer from './Footer'
+import {getVideos} from '../api'
 
 class List extends Component{
     constructor(props){
@@ -13,20 +15,11 @@ class List extends Component{
     }
     componentDidMount(){
         this.setState({isLoading: true});
-        setTimeout(()=>{
-            this.setState({isLoading:false, videos:[{  
-                id:0,
-                title:'¿Qué es CodelyTV? 🍄🔝 - Formación para programadores y divulgación del mundo del desarrollo',
-                url:'https://www.youtube.com/watch?v=rpMQd2DazTc',
-                thumbnail:'https://img.youtube.com/vi/rpMQd2DazTc/maxresdefault.jpg',
-              },
-              {   
-                id:1,
-                title:'Introducción a PHP: Cómo configurar tu entorno de desarrollo 🐘',
-                url: 'https://www.youtube.com/embed/watch?v=v2IjMrpZog4',
-                thumbnail: 'https://img.youtube.com/vi/v2IjMrpZog4/maxresdefault.jpg',
-              }]});
-        }, 2000);
+        getVideos().then(data =>{
+            this.setState({isLoading:false, videos:data});
+        })
+        
+        
     }
     render(){
         const {isLoading, videos} = this.state;
@@ -42,6 +35,7 @@ class List extends Component{
                         })
                     }
                 </div>
+                <Footer />
             </React.Fragment>
         )
     }
