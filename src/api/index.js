@@ -43,3 +43,12 @@ export const getVideoDetail = async ({id}) => new Promise((resolve, reject) => {
 		throw error;
 	}
 });
+
+export const addVideo  = async (data) => {
+	try{
+		const resp = await fetch('http://localhost:3500/videos',{method: 'POST', body: JSON.stringify(data) });
+		return resp.json();
+	}catch(error){
+		throw error;
+	}
+} 
