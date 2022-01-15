@@ -4,21 +4,24 @@
             "title": "¿Qué es CodelyTV? 🍄🔝 - Formación para programadores y divulgación del mundo del desarrollo",
             "url": "https://www.youtube.com/watch?v=rpMQd2DazTc",
             "embed": "https://www.youtube.com/embed/rpMQd2DazTc",
-            "thumbnail": "https://img.youtube.com/vi/rpMQd2DazTc/maxresdefault.jpg"
+            "thumbnail": "https://img.youtube.com/vi/rpMQd2DazTc/maxresdefault.jpg",
+            "description": "CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML."
         },
         {
             "id": 1,
             "title": "Introducción a PHP: Cómo configurar tu entorno de desarrollo 🐘",
             "url": "https://www.youtube.com/embed/watch?v=v2IjMrpZog4",
             "embed": "https://www.youtube.com/embed/v2IjMrpZog4",
-            "thumbnail": "https://img.youtube.com/vi/v2IjMrpZog4/maxresdefault.jpg"
+            "thumbnail": "https://img.youtube.com/vi/v2IjMrpZog4/maxresdefault.jpg",
+            "description":"Jerky ham hock spare ribs exercitation veniam laborum.  In dolore consectetur commodo pork belly.  Frankfurter exercitation chuck sed chislic tempor.  Alcatra chislic landjaeger salami.  Ut pork belly incididunt bresaola, jerky drumstick short loin fugiat magna sirloin non et.  Fugiat aliquip beef sunt rump nisi."
         },
         {
             "id": 2,
             "title": "Comunicación entre microservicios: 🕋 Event-Driven Architecture",
             "url": "https://www.youtube.com/watch?v=V4mjxJ5czog",
             "embed": "https://www.youtube.com/embed/V4mjxJ5czog",
-            "thumbnail": "https://img.youtube.com/vi/V4mjxJ5czog/maxresdefault.jpg"
+            "thumbnail": "https://img.youtube.com/vi/V4mjxJ5czog/maxresdefault.jpg",
+            "description": "Sausage ut dolor, short ribs turkey aliqua sint do nulla tongue turducken.  Est nisi shoulder laborum kielbasa pork belly brisket flank, porchetta tongue ham hock excepteur meatloaf.  Drumstick adipisicing do cupim sausage pork chop exercitation est.  Commodo alcatra spare ribs kielbasa voluptate cupim.  Nostrud pancetta laborum pork chop."
         },
         {
             "id": 3,
